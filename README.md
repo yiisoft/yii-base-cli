@@ -13,9 +13,9 @@ features to your application.
 
 [Yii Framework]: http://www.yiiframework.com/
 
-[![Latest Stable Version](https://img.shields.io/packagist/v/yiisoft/yii-app.svg)](https://packagist.org/packages/yiisoft/yii-app)
-[![Total Downloads](https://img.shields.io/packagist/dt/yiisoft/yii-app.svg)](https://packagist.org/packages/yiisoft/yii-app)
-[![Build Status](https://travis-ci.org/yiisoft/yii-app.svg?branch=master)](https://travis-ci.org/yiisoft/yii-app)
+[![Latest Stable Version](https://img.shields.io/packagist/v/yiisoft/yii-base-cli.svg)](https://packagist.org/packages/yiisoft/yii-base-cli)
+[![Total Downloads](https://img.shields.io/packagist/dt/yiisoft/yii-base-cli.svg)](https://packagist.org/packages/yiisoft/yii-base-cli)
+[![Build Status](https://travis-ci.org/yiisoft/yii-base-cli.svg?branch=master)](https://travis-ci.org/yiisoft/yii-base-cli)
 
 DIRECTORY STRUCTURE
 -------------------
@@ -50,8 +50,6 @@ at [getcomposer.org](http://getcomposer.org/doc/00-intro.md#installation-nix).
 You can then install this project template using the following command:
 
 ~~~
-composer require --prefer-dist yiisoft/yii-base-cli
-or
 composer create-project --prefer-dist --stability=dev yiisoft/yii-base-cli myapp
 cd myapp
 ./vendor/bin/yii serve
