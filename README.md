@@ -2,14 +2,13 @@
     <a href="http://www.yiiframework.com/" target="_blank">
         <img src="https://www.yiiframework.com/files/logo/yii.png" width="400" alt="Yii Framework" />
     </a>
-    <h1 align="center">Yii Framework Application</h1>
+    <h1 align="center">Yii Framework Command Line Application</h1>
     <br>
 </p>
 
-This package is [Yii Framework] application best for rapidly creating projects.
+This package is [Yii Framework] Command Line application best for rapidly creating projects.
 
-The template contains the basic features including user login/logout and a contact page.
-It includes all commonly used configurations that would allow you to focus on adding new
+The template includes all commonly used configurations that would allow you to focus on adding new
 features to your application.
 
 [Yii Framework]: http://www.yiiframework.com/
@@ -27,12 +26,7 @@ config/             contains application configurations
 public/             contains the entry script for a web server
 runtime/            contains files generated during runtime
 src/
-  assets/             contains assets definition
   commands/           contains console commands (controllers)
-  controllers/        contains Web controller classes
-  mail/               contains view files for e-mails
-  models/             contains model classes
-  views/              contains view files for the Web application
 tests/              contains various tests for the basic application
 vendor/             contains dependent 3rd-party packages
 .env
@@ -56,7 +50,9 @@ at [getcomposer.org](http://getcomposer.org/doc/00-intro.md#installation-nix).
 You can then install this project template using the following command:
 
 ~~~
-composer create-project --prefer-dist --stability=dev yiisoft/app myapp
+composer require --prefer-dist yiisoft/yii-base-cli
+or
+composer create-project --prefer-dist --stability=dev yiisoft/yii-base-cli myapp
 cd myapp
 ./vendor/bin/yii serve
 ~~~

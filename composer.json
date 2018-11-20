@@ -1,8 +1,8 @@
 {
     "name": "yiisoft/yii-base-cli",
     "type": "library",
-    "description": "Yii Framework Web Application Base",
-    "keywords": ["yii", "framework", "application"],
+    "description": "Yii Framework Command Line Application Base",
+    "keywords": ["yii", "framework", "application", "console", "cli"],
     "homepage": "https://github.com/yiisoft/yii-base-web",
     "license": "BSD-3-Clause",
     "support": {
@@ -12,16 +12,6 @@
         "wiki": "http://www.yiiframework.com/wiki/",
         "irc": "irc://irc.freenode.net/yii"
     },
-    "authors": [
-        {
-            "name": "Alexander Makarov",
-            "email": "sam@rmcreative.ru"
-        },
-        {
-            "name": "Paul Klimov",
-            "email": "klimov.paul@gmail.com"
-        }
-    ],
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
@@ -30,8 +20,6 @@
         "yiisoft/di": "^3.0@dev",
         "yiisoft/log": "^3.0@dev",
         "yiisoft/cache": "^3.0@dev",
-        "yiisoft/active-record": "^3.0@dev",
-        "vlucas/phpdotenv": "^2.5",
         "hiqdev/composer-config-plugin": "^1.0@dev"
     },
     "extra": {
