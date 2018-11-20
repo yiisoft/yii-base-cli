@@ -1,0 +1,44 @@
+{
+    "name": "yiisoft/yii-base-cli",
+    "type": "library",
+    "description": "Yii Framework Command Line Application Base",
+    "keywords": ["yii", "framework", "application", "console", "cli"],
+    "homepage": "https://github.com/yiisoft/yii-base-web",
+    "license": "BSD-3-Clause",
+    "support": {
+        "source": "https://github.com/yiisoft/yii-base-cli",
+        "issues": "https://github.com/yiisoft/yii-base-cli/issues",
+        "forum": "http://www.yiiframework.com/forum/",
+        "wiki": "http://www.yiiframework.com/wiki/",
+        "irc": "irc://irc.freenode.net/yii"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.1.0",
+        "yiisoft/yii-console": "^3.0@dev",
+        "yiisoft/di": "^3.0@dev",
+        "yiisoft/log": "^3.0@dev",
+        "yiisoft/cache": "^3.0@dev",
+        "hiqdev/composer-config-plugin": "^1.0@dev"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.0.x-dev"
+        },
+        "config-plugin": {
+            "params": "config/params.php",
+            "common": "config/common.php",
+            "console": "config/console.php"
+        }
+    },
+    "autoload": {
+        "psr-4": {"yii\\app\\": "src"}
+    },
+    "autoload-dev": {
+        "psr-4": {"yii\\app\\tests\\": "tests"}
+    },
+    "config": {
+        "process-timeout": 1800
+    }
+}
