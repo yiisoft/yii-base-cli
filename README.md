@@ -15,7 +15,7 @@ features to your application.
 
 [![Latest Stable Version](https://img.shields.io/packagist/v/yiisoft/yii-base-cli.svg)](https://packagist.org/packages/yiisoft/yii-base-cli)
 [![Total Downloads](https://img.shields.io/packagist/dt/yiisoft/yii-base-cli.svg)](https://packagist.org/packages/yiisoft/yii-base-cli)
-[![Build Status](https://travis-ci.org/yiisoft/yii-base-cli.svg?branch=master)](https://travis-ci.org/yiisoft/yii-base-cli)
+[![Build Status](https://travis-ci.com/yiisoft/yii-base-cli.svg?branch=master)](https://travis-ci.com/yiisoft/yii-base-cli)
 
 DIRECTORY STRUCTURE
 -------------------
