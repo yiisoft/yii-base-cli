@@ -2,6 +2,6 @@
 
 return [
     'app' => [
-        'controllerNamespace' => \yii\app\commands::class,
+        'controllerNamespace' => \yii\cli\app\commands::class,
     ],
 ];
