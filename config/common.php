@@ -16,7 +16,7 @@ return [
         '__construct()' => [
             'targets' => [
                 [
-                    '__class' => Yii\Log\FileTarget::class,
+                    '__class' => Yiisoft\Log\FileTarget::class,
                     'levels'  => ['error', 'warning'],
                 ],
             ],
