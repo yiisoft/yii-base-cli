@@ -66,7 +66,7 @@ Edit the file `config/db.php` with real data, for example:
 
 ```php
 return [
-    '__class' => \yii\db\Connection::class,
+    '__class' => \Yiisoft\Db\Connection::class,
     'dsn' => 'mysql:host=localhost;dbname=yii2basic;charset=utf8',
     'username' => 'root',
     'password' => '1234',
