@@ -15,7 +15,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": ">=7.1.0",
+        "php": ">=7.2.0",
         "yiisoft/yii-console": "^3.0@dev",
         "yiisoft/di": "^3.0@dev",
         "yiisoft/log": "^3.0@dev",
@@ -37,10 +37,10 @@
         }
     },
     "autoload": {
-        "psr-4": {"yii\\cli\\app\\": "src"}
+        "psr-4": {"Yiisoft\\Yii\\Base\\Cli\\": "src"}
     },
     "autoload-dev": {
-        "psr-4": {"yii\\cli\\app\\tests\\": "tests"}
+        "psr-4": {"Yiisoft\\Yii\\Base\\Cli\\Tests\\": "tests"}
     },
     "config": {
         "process-timeout": 1800

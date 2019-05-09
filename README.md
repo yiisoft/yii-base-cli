@@ -21,9 +21,7 @@ DIRECTORY STRUCTURE
 -------------------
 
 ```
-bin/
 config/             contains application configurations
-public/             contains the entry script for a web server
 runtime/            contains files generated during runtime
 src/
   commands/           contains console commands (controllers)
@@ -38,7 +36,7 @@ REQUIREMENTS
 ------------
  
 
-The minimum requirement by this project template that your Web server supports PHP 7.1.
+The minimum requirement by this project template that your Web server supports PHP 7.2.
 
 
 INSTALLATION
